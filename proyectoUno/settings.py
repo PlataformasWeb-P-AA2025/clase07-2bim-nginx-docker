@@ -168,3 +168,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication', # Mantener para el navegador y el panel admin
     ],
 }
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
